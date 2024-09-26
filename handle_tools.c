@@ -36,7 +36,7 @@ void read_file(FILE *fd)
 	free(buffer);
 }
 
-**
+/**
  * parse_line - Separates each line into tokens to determine
  * which function to call
  * @buffer: line from the file
